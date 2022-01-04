@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documents</title>
+    <title>Formulaire php</title>
 </head>
 
 
 <body>
 
     
-<h1>Exercice html</h1>
+<h1>Contact</h1>
 
+<form action="http://localhost:3000/contact.php" method="GET">
+    <input type="text" name="nom" placeholder="Nom" />
+    <input type="text" name="prenom" placeholder="Prénom" />
+    <input type="email" name="mail" placeholder="Adresse mail" >
+    <input type="text" name="téléphone" placeholder="Numéro de téléphone" >
+    <input type="text" name="adresse" placeholder="Adresse postale" >
+
+    <input class="submit" type="submit" value = "Envoyer">
+    <input class = "reset" type="reset" value="Annuler">
+    
+   </form>
 
 </body>
 </html>

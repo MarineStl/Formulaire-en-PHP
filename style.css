@@ -1,0 +1,25 @@
+body {
+    background-color: #edede9;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    
+}
+
+input {
+    padding: 10px 0;
+    margin: 1% 0;
+}
+
+
+
